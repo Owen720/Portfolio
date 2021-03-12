@@ -1,0 +1,64 @@
+
+.wrapper .main_container{
+  width: (100% - 250px);
+  margin-top: 79px;
+  margin-left: 200px;
+  padding: 15px;
+}
+.wrapper .main_container h1 {
+  color: #476FCD;
+}
+.wrapper .main_container .class1{
+ width: 300px;
+ height: 100px;
+ margin: 60px ;
+ position: relative;
+}
+.wrapper .main_container .class1 .header{
+ font-weight: bold;
+ color: white;
+ padding: 100px 0 25px 25px;
+ background: #AF5D5D;
+ border-bottom: 1px solid #AF5D5D;
+ border-radius: 5px 5px 0 0;
+ box-shadow: 2px 1px 5px 3px #888888;
+}
+.wrapper .main_container .class1 .CO {
+ position: absolute;
+ background: white;
+ width: 100%;
+ height: 80px;
+ padding: 15px 10px 0 10px;
+ box-sizing: border-box;
+ border-radius: 0 0 5px 5px;
+ color: #AF5D5D;
+ text-align: center;
+ box-shadow: 2px 5px 5px 3px #888888;
+}
+.wrapper .main_container .class1 .CO a {
+  color: #606060;
+}
+.wrapper .main_container .bar{
+  background: #f3f5f9;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 200px;
+  height: 100%;
+	top: 170px;
+  left: 210px;
+
+}
+.wrapper .main_container .bar a{
+  color: #000;
+  width: 100%;
+  line-height: 60px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.wrapper .main_container i{
+  padding-right: 10px;
+}
+.wrapper.collapse .main_container{
+  width: 70px;
+}

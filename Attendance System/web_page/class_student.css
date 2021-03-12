@@ -1,0 +1,38 @@
+
+.wrapper .main_container{
+  width: (100% - 250px);
+  margin-top: 79px;
+  margin-left: 200px;
+  padding: 15px;
+}
+.wrapper .main_container h1 {
+  color: #476FCD;
+}
+.wrapper.collapse .sidebar{
+  width: 70px;
+}
+.wrapper.collapse .sidebar ul li a{
+  text-align: center;
+}
+.wrapper.collapse .sidebar ul li a span.icon{
+  margin: 0;
+}
+.wrapper.collapse .sidebar ul li a span.title{
+  display: none;
+}
+.wrapper.collapse .main_container{
+  width: (100% - 70px);
+  margin-left: 70px;
+}
+.main_container table {
+  width: 70%;
+}
+.main_container table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+.main_container table .type{
+background-color: #FFB266;
+}

@@ -1,0 +1,104 @@
+
+.wrapper .main_container{
+  width: (100% - 250px);
+  margin-top: 79px;
+  margin-left: 200px;
+  padding: 15px;
+}
+.wrapper .main_container h1 {
+  color: #476FCD;
+}
+.wrapper .main_container .class1{
+ width: 300px;
+ height: 100px;
+ margin: 60px ;
+ position: relative;
+}
+.wrapper .main_container .class1 .header{
+ font-weight: bold;
+ color: white;
+ padding: 100px 0 25px 25px;
+ background: #AF5D5D;
+ border-bottom: 1px solid #AF5D5D;
+ border-radius: 5px 5px 0 0;
+ box-shadow: 2px 1px 5px 3px #888888;
+}
+.wrapper .main_container .class1 .CO {
+ position: absolute;
+ background: white;
+ width: 100%;
+ height: 80px;
+ padding: 15px 10px 0 10px;
+ box-sizing: border-box;
+ border-radius: 0 0 5px 5px;
+ color: #AF5D5D;
+ text-align: center;
+ box-shadow: 2px 5px 5px 3px #888888;
+}
+.wrapper .main_container .class1 .CO a {
+  color: #606060;
+}
+.wrapper .main_container .class2 {
+ width: 300px;
+ height: 100px;
+ margin-top: -160px;
+ margin-left: 400px;
+ position: relative;
+}
+.wrapper .main_container .class2 .header {
+ font-weight: bold;
+ color: white;
+ padding: 100px 0 25px 25px;
+ background: #5EB258;
+ border-bottom: 1px solid #5EB258;
+ border-radius: 5px 5px 0 0;
+ box-shadow: 2px 1px 5px 3px #888888;
+
+}
+.wrapper .main_container .class2 .CO {
+ position: absolute;
+ background: white;
+ width: 100%;
+ height: 80px;
+ padding: 15px 10px 0 10px;
+ box-sizing: border-box;
+ border-radius: 0 0 5px 5px;
+ color: #5EB258;
+ text-align: center;
+ box-shadow: 2px 5px 5px 3px #888888;
+}
+.wrapper .main_container .class2 .CO a {
+  color: #606060;
+}
+.wrapper .main_container .class3 {
+ width: 300px;
+ height: 100px;
+ margin-top: -100px;
+ margin-left: 745px;
+ position: relative;
+}
+.wrapper .main_container .class3 .header {
+ font-weight: bold;
+ color: white;
+ padding: 100px 0 25px 25px;
+ background: #FF8000;
+ border-bottom: 1px solid #FF8000;
+ border-radius: 5px 5px 0 0;
+ box-shadow: 2px 1px 5px 3px #888888;
+
+}
+.wrapper .main_container .class3 .CO {
+ position: absolute;
+ background: white;
+ width: 100%;
+ height: 80px;
+ padding: 15px 10px 0 10px;
+ box-sizing: border-box;
+ border-radius: 0 0 5px 5px;
+ color: #FF8000;
+ text-align: center;
+ box-shadow: 2px 5px 5px 3px #888888;
+}
+.wrapper .main_container .class3 .CO a {
+  color: #606060;
+}
