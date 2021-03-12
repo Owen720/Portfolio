@@ -1,5 +1,6 @@
 import random
 
+# 4 deck of the poker
 cards = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q','K',] * 16
 sum = int(0)
 
@@ -9,7 +10,7 @@ split_record = []
 record = []
 cost = 1000
 
-
+# Take a card form the deck randoming
 def card_name():
     rd = random.choice(cards)
     if rd == "A":
@@ -52,6 +53,7 @@ def card_name():
         cards.remove("K")
         return rd
     
+# Change the card to points
 def card_point(n, c):
     if n == 'A':
         c += 1
@@ -100,12 +102,14 @@ def checkMoney(money):
     else:
         return False
 
+# Check is "Black Jack" or not
 def blackJack(card):
     if card == 21:
       return True
     else:
       return False
 
+# Calculate the earn or lost form the result
 def win(m):
     m = m
     return m
@@ -126,6 +130,7 @@ def tie(m):
     m = 0
     return m
 
+# Calculate the total points of the cards
 def calculate(c, sum):
     cal_point = int(0)
     for i in c:
@@ -134,6 +139,7 @@ def calculate(c, sum):
         point -= point
     return sum
 
+# Check there is a "A" or not in player's or dealer's hand
 def checkAce(n):
   if "A" in n:
     ace = True
@@ -142,6 +148,7 @@ def checkAce(n):
     ace = False
     return ace
 
+# If player choose "Stand"
 def stand(player_card, dealer_card):
     player_total = calculate(player_card, sum)
     
@@ -270,6 +277,7 @@ def stand(player_card, dealer_card):
     player_card.clear()
     dealer_card.clear()
 
+# If player choose "Hit"
 def hit(player_card,dealer_card):
     card = card_name()
     player_card.append(card)
@@ -311,6 +319,7 @@ def hit(player_card,dealer_card):
     player_card.clear()
     dealer_card.clear()
     
+# If player choose "Double Down"
 def doubleDown(player_card,dealer_card):
     card = card_name()
     player_card.append(card)
@@ -339,20 +348,33 @@ def doubleDown(player_card,dealer_card):
         result = stand(player_card, dealer_card)
         return result
 
+# The chose in 2 hands when player choose "Split"
 def split_choose(money, player_total):
-    choose1 = int(input("Stand   Hit   Double Down\n"))
-    if choose1 == 1:
-        return money, player_total
+    loop = True
 
-    elif choose1 == 2:
-        player_total = split_hit(player_card)
-        return money, player_total
-        
-    elif choose1 == 3:
-        money *= 2
-        player_total = split_double(player_card)
-        return money, player_total
+    while loop:
+        split_menu()
+        choose1 = int(input("Enter Your Choose: "))
+        if choose1 == 1:
+            loop = False
+            return money, player_total
 
+        elif choose1 == 2:
+            loop = False
+            player_total = split_hit(player_card)
+            return money, player_total
+            
+        elif choose1 == 3:
+            money *= 2
+            loop = False
+            player_total = split_double(player_card)
+            return money, player_total
+
+        else:
+            print("\nPlease Choose Again\n")
+            loop = True
+    
+# If player choose "Split"
 def split(player_card,dealer_card, money):
     player_card2 = []
     money2 = money
@@ -494,6 +516,7 @@ def split(player_card,dealer_card, money):
     player_card2.clear()
     dealer_card.clear()
 
+# If player choose "Hit" after "Split"
 def split_hit(player_card):
     card = card_name()
     player_card.append(card)
@@ -521,6 +544,7 @@ def split_hit(player_card):
         print("Player Over")
         return player_total
 
+# If player choose "Double Down" after "Split"
 def split_double(player_card):
     card = card_name()
     player_card.append(card)
@@ -540,6 +564,7 @@ def split_double(player_card):
     else:
         return player_total
 
+# Print result
 def deal(player_card, player_total, dealer_card, dealer_total, money):
 
     if checkAce(dealer_card) == True:
@@ -662,9 +687,14 @@ def deal(player_card, player_total, dealer_card, dealer_total, money):
     player_card.clear()
     dealer_card.clear()
 
+# Chose menu
 def menu():
     print("1.Stand   2.Hit   3.Double Down   4.Split\n")
 
+def split_menu():
+    print("1.Stand   2.Hit   3.Double Down\n")
+
+# Main Part
 def main(cost):
         if len(cards) <= 13:
             print("No Card")
