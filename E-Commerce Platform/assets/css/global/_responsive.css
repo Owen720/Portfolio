@@ -1,0 +1,530 @@
+@media screen and (max-width: 1024px) {
+  /*-------------------------
+      ## Common Padding Css
+  ---------------------------*/
+  .common-pd {
+    padding: 80px 0 50px;
+  }
+
+  .common-pd-2 {
+    padding: 73px 0 50px;
+  }
+
+  .common-pd-3 {
+    padding: 43px 0 73px;
+  }
+
+  .common-pd-4 {
+    padding: 73px 0 80px;
+  }
+
+  .common-pd-top {
+    padding-top: 73px;
+  }
+
+  .common-pd-top-2 {
+    padding-top: 43px;
+  }
+
+  .common-pd-bottom {
+    padding-bottom: 73px;
+  }
+
+  .common-pd-bottom-2 {
+    padding-bottom: 50px;
+  }
+
+  .pd-top-100 {
+    padding-top: 80px;
+  }
+
+  .pd-100 {
+    padding: 80px 0;
+  }
+
+  .pd-bottom-83 {
+    padding-bottom: 63px;
+  }
+
+  .listed-product-area {
+    padding: 76px 0 46px;
+  }
+
+  .subscribe-area {
+    padding: 73px 0 80px;
+  }
+
+  .special-area {
+    padding: 76px 0 47px;
+  }
+
+  .footer-area {
+    padding: 80px 0 0px;
+  }
+
+  /**----------------------*/
+  .section-title {
+    margin-bottom: 45px;
+  }
+
+  .banner-area.banner-area-2 .banner-inner-2 h2,
+.banner-inner h2 {
+    font-size: 50px;
+  }
+
+  .banner-inner p {
+    margin-bottom: 41px;
+  }
+
+  .banner-inner-2 .btn {
+    margin-top: 30px;
+  }
+
+  .banner-area.banner-area-2 .banner-inner-2 .btn {
+    margin-top: 25px;
+  }
+
+  .banner-area-4 {
+    padding: 0 0 45px;
+  }
+
+  .banner-area-4 .banner-inner-4 .btn {
+    margin-top: 36px;
+  }
+
+  .banner-area .banner-slider .owl-dots,
+.banner-area-4 .owl-dots,
+.round-controler.contrl-white .owl-dots {
+    text-align: center;
+  }
+
+  .banner-area-4 .owl-dots {
+    margin-top: 15px;
+  }
+
+  .single-product-card .product-card-details .price {
+    font-size: 18px;
+  }
+
+  .single-product-card .product-card-details {
+    padding: 23px 15px 24px;
+  }
+
+  .top-product-tab .nav-pills .nav-item .nav-link {
+    padding: 0 18px;
+    font-size: 14px;
+  }
+
+  .single-product-card .product-card-details .product-cart a {
+    padding: 10px 8px 10px 10px;
+    font-size: 14px;
+  }
+  .single-product-card .product-card-details .product-cart a .fav-icon a {
+    padding: 10px 10px 10px 8px;
+  }
+
+  .single-product-card.big .product-card-details p.categories {
+    margin-top: 99px;
+  }
+
+  .offer-area h2.title {
+    margin-bottom: 50px;
+  }
+
+  .offer-area .btn {
+    margin-top: 15px;
+  }
+
+  .round-controler .owl-nav {
+    text-align: center;
+  }
+  .round-controler .owl-nav .owl-next, .round-controler .owl-nav .owl-prev {
+    position: inherit;
+    margin: 0 5px 0 5px;
+  }
+
+  .round-controler .owl-dots .owl-dot {
+    margin: 0 4px;
+  }
+
+  .trending-product-slider .owl-dots {
+    display: none;
+  }
+
+  .discount-area .single-product-card .product-card-details .title {
+    font-size: 20px;
+  }
+
+  .single-gadget.single-gadget-2 {
+    padding: 6px 6px 20px 20px;
+  }
+  .single-gadget.single-gadget-2 .gadget-details h4 {
+    font-size: 18px;
+  }
+
+  .banner-area.banner-area-2 .banner-inner-2 {
+    margin-top: 0px;
+  }
+
+  .banner-area.banner-area-3 .banner-inner-3 {
+    margin: 0px 0 85px;
+  }
+
+  .single-product-card.single-product-card-3 .product-card-details {
+    padding: 23px 15px 22px;
+  }
+
+  .single-product-card .product-card-details .title {
+    font-size: 14px;
+  }
+
+  .shop-product-area-2 .single-product-card .product-card-details .product-cart {
+    position: inherit;
+    margin-top: 0;
+  }
+
+  .shop-product-area-2 .single-product-card .product-card-details {
+    padding: 31px 20px 30px 20px;
+  }
+
+  .shop-product-area-2 .sidebar .sidebar-title {
+    font-size: 15px;
+  }
+
+  .topbar-single-info {
+    padding: 0 13px;
+  }
+
+  .topbar-help .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+
+  .single-gadget .gadget-details h4 {
+    font-size: 16px;
+  }
+
+  .offer-area {
+    padding: 74px 0 80px 0;
+  }
+
+  .sidebar-categories li a {
+    padding: 20px 15px 18px 37px;
+    font-size: 14px;
+  }
+
+  .sidebar-categories li img {
+    left: 10px;
+  }
+
+  .sidebar .sidebar-title {
+    padding: 20px 15px 18px 15px;
+  }
+
+  .sidebar-rating .sidebar-single-rating .star-rating {
+    padding: 0 0 10px 20px;
+  }
+
+  .square-controler .owl-nav .owl-next {
+    right: 101px;
+  }
+
+  .square-controler .owl-nav .owl-prev {
+    right: 150px;
+  }
+
+  .shop-item-details .entry-title {
+    font-size: 24px;
+  }
+
+  .wishlist-area .table tbody td {
+    padding: 0px 18px;
+  }
+
+  .wishlist-area .table tbody td.item-name {
+    padding: 0;
+  }
+
+  .wishlist-area .table tbody td.table-quantity {
+    padding: 0;
+  }
+
+  .card-2-area .table .price {
+    border: 0;
+    border-bottom: 1px solid #ececec;
+  }
+
+  form .quantity input {
+    width: 49px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .top-product-tab .nav-pills .nav-item .nav-link {
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+
+  .top-product-tab .nav-pills,
+.top-product-tab .nav-pills li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .top-product-tab .nav-pills .nav-item .nav-link.active:after,
+.top-product-tab .nav-pills .nav-item .nav-link.active:before {
+    display: none;
+  }
+
+  .footer-area .footer-bottom .copyright,
+.footer-area .footer-bottom .footer-social {
+    margin-bottom: 15px;
+  }
+
+  .banner-area .banner-slider .owl-nav {
+    margin-top: 20px;
+  }
+
+  .banner-area .banner-thumb {
+    margin-top: 60px;
+  }
+
+  .banner-area.banner-area-3 {
+    padding-bottom: 80px;
+  }
+
+  .banner-area.banner-area-3 .banner-inner-3 {
+    margin: 0;
+  }
+
+  .offer-area.offer-area-3 {
+    background-position: left;
+    text-align: center;
+  }
+
+  .offer-area.offer-area-4 {
+    padding-top: 50px;
+  }
+  .offer-area.offer-area-4 .offer-details {
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  .sidebar-categories li a {
+    padding: 20px 25px 18px 52px;
+    font-size: 16px;
+  }
+
+  .sidebar-categories li img {
+    left: 20px;
+  }
+
+  .sidebar .sidebar-title {
+    padding: 20px 27px 18px 20px;
+  }
+
+  .listed-product-area .single-list-area .area-title {
+    margin-bottom: 25px;
+  }
+
+  .single-product-card .product-card-details .title {
+    font-size: 16px;
+  }
+
+  .wishlist-area .table tbody td.item-name,
+.wishlist-area .table tbody td {
+    font-size: 14px;
+  }
+
+  .wishlist-area .table tbody td.table-quantity {
+    padding: 10px 0;
+  }
+
+  .wishlist-area .table tbody td.table-quantity input {
+    width: 36px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .back-to-top {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-size: 24px;
+  }
+
+  .offer-area.offer-area-4 {
+    padding-top: 50px;
+  }
+  .offer-area.offer-area-4 .offer-details {
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  .top-product-tab .nav-pills .nav-item .nav-link {
+    font-size: 15px;
+    padding: 5px 12px;
+  }
+
+  .single-gadget .gadget-details {
+    margin-right: 63px;
+  }
+
+  .filter-area .main-search input {
+    border-radius: 50px 0 0 50px;
+  }
+
+  .shop-item-details .entry-title {
+    font-size: 20px;
+  }
+
+  .shop-item-details .price {
+    font-size: 22px;
+  }
+
+  .shop-tabs .nav-tabs .nav-item .nav-link {
+    height: 55px;
+    line-height: 55px;
+    padding: 0 24px;
+  }
+
+  .shipping-area {
+    padding: 46px 50px 40px;
+  }
+
+  .widget.widget_nav_menu ul li {
+    margin: 10px 0;
+  }
+
+  .shop-item-details {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .banner-inner {
+    text-align: center;
+  }
+  .banner-inner h2 {
+    font-size: 33px;
+  }
+
+  .single-gadget .gadget-details {
+    margin-right: 30px;
+  }
+
+  .offer-area h2.title {
+    font-size: 34px;
+  }
+
+  .btn-basic-lg {
+    padding: 0 30px 0 30px;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .section-title-2 {
+    padding: 10px 0 60px;
+    margin-bottom: 30px;
+  }
+  .section-title-2 .title {
+    border-radius: 0;
+    margin-bottom: 35px;
+  }
+  .section-title-2 .nice-select {
+    left: 0;
+    right: auto;
+    bottom: 9px;
+    border-radius: 5px;
+    top: auto;
+  }
+  .section-title-2 .nice-select .list {
+    right: auto;
+    left: 0;
+  }
+  .section-title-2 .btn {
+    left: 0;
+    right: auto;
+    bottom: 9px;
+    border-radius: 5px;
+    top: auto;
+  }
+
+  .square-controler .owl-nav .owl-prev,
+.square-controler .owl-nav .owl-next {
+    top: -89px;
+    border-radius: 5px;
+  }
+
+  .square-controler .owl-nav .owl-prev {
+    right: 60px;
+  }
+
+  .square-controler .owl-nav .owl-next {
+    right: 0;
+  }
+
+  .section-title .title {
+    font-size: 22px;
+  }
+
+  .section-title .subtitle {
+    font-size: 14px;
+  }
+
+  .subscribe-area {
+    padding: 65px 0 70px;
+  }
+  .subscribe-area .subscribe-form input {
+    padding: 0 25px 0 25px;
+  }
+  .subscribe-area .subscribe-form button {
+    position: inherit;
+    margin-top: 10px;
+  }
+
+  .special-area .single-speciality {
+    display: block;
+    margin-bottom: 30px;
+    padding: 0 30px;
+  }
+
+  .special-area .single-speciality .thumb {
+    margin-bottom: 20px;
+  }
+
+  .shop-product-area-2 .single-product-card .product-card-details .product-cart {
+    margin-top: 0px;
+    position: absolute;
+    bottom: 30px;
+    top: auto;
+  }
+
+  .shop-product-area-2 .single-product-card {
+    display: block;
+    text-align: center;
+  }
+
+  .shipping-area {
+    padding: 36px 40px 30px;
+  }
+
+  .footer-widget {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .shop-product-area-2 .single-product-card .product-card-details .product-cart {
+    position: inherit;
+  }
+}
+@media screen and (max-width: 320px) {
+  .banner-inner h2 {
+    font-size: 30px;
+  }
+
+  .breadcrumb-area .breadcrumb {
+    font-size: 13px;
+  }
+
+  .single-gadget .gadget-details {
+    margin-right: 0px;
+  }
+}

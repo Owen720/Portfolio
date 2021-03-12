@@ -1,0 +1,51 @@
+
+.bar {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: white;
+	font-family: Arial;
+}
+
+.bar .sub-bar {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: #ff8400;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.bar .sub-bar .sub-sub-bar {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: #ff8400;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.bar .sub-bar .sub-bar-text{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.sub-sub-bar .sub-bar-text:hover {
+	background-color: #f0f0f0;
+	opacity: 0.9;
+	color: black;
+}
+
+.bar .sub-bar .bar .sub-sub-bar{
+	display: none;
+}
+
+.bar .sub-bar:hover .bar .sub-sub-bar{
+	display: block;
+	
+}
