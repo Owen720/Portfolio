@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>111 Shop</title>
+
+    <!-- Vendor Stylesheet -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/login&create_ac.css">
+    <!-- responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<script>
+
+function goHome() {
+	location.href = "./home_page.html";
+}
+function del_111() {
+	var row = document.getElementById('shop_111');
+	row.parentElement.removeChild(row);
+}
+function del_222() {
+	var row = document.getElementById('shop_222');
+	row.parentElement.removeChild(row);
+}
+function del_333() {
+	var row = document.getElementById('shop_333');
+	row.parentElement.removeChild(row); 
+}
+
+</script>
+
+  <!-- preloader area start -->
+<div class="preloader" id="preloader">
+    <div class="preloader-inner">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+</div>
+<!-- preloader area end -->
+
+<!-- search Popup -->
+<div class="body-overlay" id="body-overlay"></div>
+<div class="search-popup" id="search-popup">
+    <form action="index.html" class="main-search search-form">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+    </form>
+</div>
+<!-- //. search Popup -->
+
+<!-- navbar start -->
+<div class="navbar-area">
+    <div class="navbar-middle d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 align-self-center">
+                    <div class="logo-area">
+                        <a href="admin_manage.html"> <img src="assets/img/logo.png" alt="logo"></a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-area navbar-expand-lg nav-style-01">
+        <div class="container nav-container">
+            <div class="responsive-mobile-menu">
+                <button class="menu toggle-btn d-block d-lg-none" data-toggle="collapse" data-target="#zenax_main_menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-left"></span>
+                    <span class="icon-right"></span>
+                </button>
+            </div>
+            <div class="mobile-logo">
+                <a href="index.html"> <img src="assets/img/logo-2.png" alt="logo"></a>
+            </div>
+            <div class="shop-cart-area">
+                <ul>
+                    <li><span>6</span><i class="fa fa-heart-o"></i></li>
+                    <li><span>5</span><i class="las la-shopping-cart"></i></li>
+                </ul>
+                <ul class="right-part-search">
+                    <li class="search" id="search">
+                        <a href="#"><i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="menubar d-none d-lg-block" id="navigation-button">
+                        <a><i class="flaticon-menu-button"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="bar">
+                	<li class="sub-bar"><a href="admin_manage.html">Management</a></li>
+                	<li class="sub-bar"><a>Account</a>
+                		<ul class="bar">
+                			<li class="sub-sub-bar"><a href="login.html" class="sub-bar-text">Logout</a></li>
+                		</ul>
+                	</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- navbar end -->
+
+    <!-- breadcrumb-area start -->
+    <nav class="breadcrumb-area" aria-label="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Management</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- breadcrumb-area end -->
+
+    <!-- Page-title-area start -->
+    <div class="page-title-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Shop List</h3>
+                </div>
+				<table>
+				  <tr>
+				  	<th>Shop name</th>
+				    <th>Shop ID</th>
+				    <th>Username</th>
+				    <th>Delete Shop</th>
+				  </tr>
+				  <tr  id="shop_111">
+				    <td>111 Shop</td>
+				    <td>AST167</td>
+				    <td>seller1</td>
+				    <td class="table-close-btn"><i class="fa fa-close"onclick="del_111()"></i></td>
+				  </tr>
+				  <tr id="shop_222">
+				    <td>222 Shop</td>
+				    <td>AST169</td>
+				    <td>seller2</td>
+				    <td class="table-close-btn"><i class="fa fa-close"onclick="del_222()"></i></td>
+				  </tr>
+				  <tr id="shop_333">
+				    <td>333 Shop</td>
+				    <td>AST1679</td>
+				    <td>seller3</td>
+				    <td class="table-close-btn"><i class="fa fa-close"onclick="del_333()"></i></td>
+				  </tr>
+				</table>
+
+				<div class="col-12">
+				<br>
+                    <h3>Products of Category</h3>
+                </div>
+                <table>
+				  <tr>
+				  	<th>Women's Fashion</th>
+				    <th>Men Fashion</th>
+				    <th>Technology</th>
+				    <th>Outdoor & Sports</th>
+				    <th>Bags & Shoes</th>
+				    <th>Home & Pet</th>
+				  </tr>
+				</table>
+            </div>
+        </div>
+    </div>
+    <!-- Page-title-area end -->
+
+
+
+    <!-- footer area start -->
+    <footer class="footer-area">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget widget contact-widget">
+                            <a href="index.html" class="footer-logo"> 
+                                <img src="assets/img/logo-2.png" alt="footer logo">
+                            </a>
+                            <p>It is a long established fact that a reader will be the distracted by the readable content of a page.</p>
+                            <ul class="contact_info_list">
+                                <li class="single-info-item">
+                                    <h4>Address:</h4>
+                                    <p>45 Grand Central Terminal New York <br> NY 1245, United State USA</p>
+                                </li>
+                                <li class="single-info-item">
+                                    <h4>Email:</h4>
+                                    <p>supports@zenax.com</p>
+                                </li>
+                                <li class="single-info-item">
+                                    <h4>Phone:</h4>
+                                    <p>+123 4567 8910</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-sm-3">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h4 class="widget-title">Quick Links</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Support</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Helpline</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Affiliates</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Live Support</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Customer Care</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h4 class="widget-title">Informations</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>About Us</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Customer Services</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Privacy and Policy</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Orders & Returns</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Shipping Policy</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Our Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h4 class="widget-title">My Account</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Balance</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Checkout</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Cards</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Track Order</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Terms</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Site Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-md-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 align-self-lg-center">
+                        <p class="copyright">© ASTExpress - 2020  |  All Right Reserved</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-center">
+                        <ul class="footer-social social-area">
+                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="footer-currency currency-area float-lg-right">
+                            <li><a href="#"><img src="assets/img/footer/01.png" alt="img"></a></li>
+                            <li><a href="#"><img src="assets/img/footer/02.png" alt="img"></a></li>
+                            <li><a href="#"><img src="assets/img/footer/03.png" alt="img"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+
+    <!-- all plugins here -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="assets/js/vendor.js"></script>
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
