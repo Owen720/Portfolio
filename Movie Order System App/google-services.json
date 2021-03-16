@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "160375006638",
+    "firebase_url": "https://movie-order-system-b9a69.firebaseio.com",
+    "project_id": "movie-order-system-b9a69",
+    "storage_bucket": "movie-order-system-b9a69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160375006638:android:1a885dc0728c827b12943f",
+        "android_client_info": {
+          "package_name": "com.android.movieordersystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160375006638-na6a2dikpeg4o9t1u2los1juckv9q5pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.movieordersystem",
+            "certificate_hash": "f9d8d2517370cba5a940586b6d3727e3d8167594"
+          }
+        },
+        {
+          "client_id": "160375006638-fa45d2gs8r9jnknr6vhtohn9f4gkcura.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwmiCoyFHuf91sUvj8LoeG03nuHvctY98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160375006638-fa45d2gs8r9jnknr6vhtohn9f4gkcura.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
