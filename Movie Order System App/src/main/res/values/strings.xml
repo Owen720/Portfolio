@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovieOrderSystem</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+</resources>
